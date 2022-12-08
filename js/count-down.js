@@ -67,7 +67,7 @@ Util.setAttributes = function (el, attrs) {
     CountDown.prototype.initCountDown = function () {
         var self = this;
         this.intervalId = setInterval(function () {
-            self.updateCountDown(false);
+            self.updateCountDown(true);
         }, 1000);
         this.updateCountDown(true);
     };
