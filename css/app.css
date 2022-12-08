@@ -1,4 +1,9 @@
-
+/**
+  * Name: ICOLand | ICO landing page & ICO Crypto HTML Template
+  * Version: 1.0.2
+  * Author: Themesflat
+  * Author URI: http://www.themesflat.com
+*/
 @import 'bootstrap.min.css';
 @import 'style.css';
 @import 'aos.css';
@@ -1565,7 +1570,7 @@ h3, h5 {
 .banner-top.style-2 .banner-top__content .title {
   font-size: 80px;
   line-height: 1.1;
-  font-family: "Zen Dots", cursive;
+  font-family: 'Kanit', sans-serif;
   font-weight: 400;
   text-transform: none;
 }
@@ -1881,7 +1886,7 @@ h3, h5 {
 
 .banner-top.style-4 {
   padding: 189px 0 116px;
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/bg.png") no-repeat;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/v2.gif") no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -7322,13 +7327,14 @@ form button.btn-action {
 
 .about.style-4 {
   padding: 81px 0 62px;
-  background: url("../images/bg2.png") no-repeat;
+  background: url("../images/v2.gif") no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+  color: #fff;
 }
 .about.style-4 .block-text .title {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Kanit', sans-serif;
   font-weight: 600;
   font-size: 40px;
 }
@@ -11689,6 +11695,8 @@ img.mfp-img {
   background: url("../images/bg-team-5.jpg") no-repeat;
   background-size: cover;
   position: relative;
+  
+  background-position: center center;
 }
 .home-defi-2 .section-faq.style-2 {
   background: transparent;
@@ -12807,6 +12815,10 @@ img.mfp-img {
     padding: 0;
   }
 }
+
+/*# sourceMappingURL=app.css.map */
+
+
 .neonText {
   color: #fff;
   text-shadow:
@@ -12846,4 +12858,3 @@ img.mfp-img {
   }    
 }
 
-/*# sourceMappingURL=app.css.map */
