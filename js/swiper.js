@@ -158,15 +158,15 @@ var swiper =  new Swiper(".swiper-partner", {
             spaceBetween: 60,
         },
         750: {
-            slidesPerView: 4,
+            slidesPerView: 3,
             spaceBetween: 60,
         },
         991: {
-            slidesPerView: 5,
+            slidesPerView: 3,
             spaceBetween: 60,
         },
         1280: {
-            slidesPerView: 6,
+            slidesPerView: 3,
             spaceBetween: 60,
         },
     },
