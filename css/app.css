@@ -1888,7 +1888,10 @@ h3, h5 {
   padding: 189px 0 116px;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/v2.gif") no-repeat;
   background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   position: relative;
+}
 }
 .banner-top.style-4 .container {
   position: relative;
