@@ -142,7 +142,7 @@ var swiper = new Swiper('.swiper-team-7', {
 
 var swiper =  new Swiper(".swiper-partner", {
     slidesPerView:2,
-    loop: false, 
+    loop: true, 
     spaceBetween: 30,
     breakpoints: {
         0: {
@@ -374,7 +374,38 @@ var swiper = new Swiper('.swiper-roadmap-8', {
     }
 
 })
-
+new Swiper('.swiper-partner', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 40
+      },
+      480: {
+        slidesPerView: 2,
+        spaceBetween: 60
+      },
+      640: {
+        slidesPerView: 2,
+        spaceBetween: 80
+      },
+      1200: {
+        slidesPerView: 3,
+        spaceBetween: 120
+      }
+    }
+  });
 
 var swiper = new Swiper(".swiper-blog", {
     breakpoints: {
