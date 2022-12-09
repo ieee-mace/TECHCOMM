@@ -1892,7 +1892,6 @@ h3, h5 {
   background-attachment: fixed;
   position: relative;
 }
-}
 .banner-top.style-4 .container {
   position: relative;
   z-index: 1;
@@ -4871,6 +4870,10 @@ h3, h5 {
   padding: 22px 0 19px;
   background: transparent;
   transition: 0.3s all ease-in-out;
+  border-image-slice: 1;
+  background: rgba(46, 114, 210, 0.1);
+  border-image-source: linear-gradient(to left, #6A0A6B, #160b11);
+
 }
 .team-box-s3 .team-box__image img {
   border-radius: 50%;
@@ -4889,10 +4892,10 @@ h3, h5 {
   font-size: 20px;
 }
 .team-box-s3:hover {
-  border-image-slice: 1;
-  background: rgba(46, 114, 210, 0.1);
-  border-image-source: linear-gradient(to left, #6A0A6B, #160b11);
-}
+  
+  border-image-slice: 0;
+  border-image-source: linear-gradient(to left, transparent, transparent);
+  }
 
 .section-team.style-4 {
   padding: 83px 0 50px;
