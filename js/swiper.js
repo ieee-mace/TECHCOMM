@@ -402,7 +402,7 @@ new Swiper('.swiper-partner', {
       },
       1200: {
         slidesPerView: 3,
-        spaceBetween: 120
+        spaceBetween: 100
       }
     }
   });
